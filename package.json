@@ -37,7 +37,6 @@
         "babel-loader": "latest",
         "css-loader": "latest",
         "@babel/core": "latest",
-        "@babel/plugin-proposal-class-properties": "latest",
         "@babel/preset-env": "latest",
         "@babel/preset-react": "latest",
         "eslint-loader": "latest",
