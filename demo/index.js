@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import ReactDOM from "react-dom";
-import Graph from "../src/index";
+import Graph from "..";
 
 const defaultOptions = {
     title: {
