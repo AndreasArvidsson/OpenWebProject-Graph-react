@@ -27,7 +27,10 @@
         "url": "https://github.com/AndreasArvidsson/OpenWebProject-graph-react/issues"
     },
     "dependencies": {},
-    "peerDependencies": {},
+    "peerDependencies": {
+        "owp.graph": ">=2.0.0",
+        "react": ">=16.8.0"
+    },
     "devDependencies": {
         "webpack": "latest",
         "webpack-cli": "latest",
@@ -44,6 +47,7 @@
         "babel-eslint": "latest",
         "react": "latest",
         "react-dom": "latest",
-        "eslint-plugin-react": "latest"
+        "eslint-plugin-react": "latest",
+        "owp.graph": "latest"
     }
 }

@@ -1,4 +1,4 @@
-import Graph from "../owp.graph"; //TODO
+import Graph from "owp.graph";
 
 import React, {
     useEffect,
