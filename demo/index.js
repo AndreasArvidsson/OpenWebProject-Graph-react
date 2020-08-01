@@ -17,11 +17,13 @@ const defaultOptions = {
 const toJson = obj => JSON.stringify(obj, null, 4);
 
 const ref = React.createRef();
+const style = { width: 800, height: 300 };
 
 const App = () => {
     const [options, setOptions] = useState(defaultOptions);
     const [value, setValue] = useState(toJson(defaultOptions));
     const [useDefault, setUseDefault] = useState(false);
+
     const update = () => {
         let opt;
         eval("opt = " + value);
@@ -39,7 +41,7 @@ const App = () => {
             <Graph
                 ref={ref}
                 options={useDefault ? defaultOptions : options}
-                style={{ width: 800, height: 300 }}
+                style={style}
             />
             <textarea
                 style={{ width: 800, height: 300, resize: "vertical" }}
